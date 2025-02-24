@@ -1,0 +1,116 @@
+/* New CSS for fixed elements */
+.fixed-top {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1000;
+  padding: 10px 20px; /* Add padding for spacing */
+}
+
+#exportButton {
+  margin-right: 10px; /* Add some space between button and checkbox */
+}
+
+/* Updated positioning for the "Select All" checkbox */
+.form-check {
+  margin-left: 10px; /* Add some space between button and checkbox */
+  position: absolute;
+  right: 20px; /* Adjust as needed */
+  top: 10px; /* Adjust as needed */
+}
+
+.form-check-label {
+  margin-left: 5px; /* Add some space between checkbox and label */
+}
+
+/* New CSS for sticky headers */
+.sticky-header {
+  position: sticky;
+  top: 50px; /* Adjust based on the height of fixed elements */
+  background-color: white;
+  z-index: 999;
+}
+
+/* Hide the original table header */
+#tableList thead {
+  display: none;
+}
+
+/* Display the sticky header when scrolling starts */
+#tableList thead.sticky-header {
+  display: table-header-group;
+}
+
+/* Existing CSS */
+#myDiv {
+  padding: 3% 2%;
+  font-family: "Open Sans";
+}
+
+/* Table Styles */
+#tableList {
+  margin-top: 30px;
+}
+#tableList tbody {
+  font-family: "Roboto Mono", monospace;
+  text-align: left;
+}
+
+#tableList .actions button {
+  margin-left: auto;
+  margin-right: auto;
+}
+#tableList tr.editing {
+  background-color: rgba(0, 191, 255, 0.2);
+}
+
+/* Centering update checkbox */
+#tableList .update-checkbox {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 0.5rem;
+}
+
+/* Button styles */
+#myDiv .btn-primary,
+.modal .btn-primary {
+  background-color: #fc9927;
+  border: none;
+}
+#myDiv .btn-primary:hover,
+#myDiv .btn-primary:focus,
+.modal .btn-primary:hover,
+.modal .btn-primary:focus {
+  background-color: #fc8f13;
+}
+#myDiv .btn-primary:active,
+.modal .btn-primary:active {
+  background-color: #ed8003;
+  transform: translateY(1px);
+}
+
+/* Text Styles */
+form .field-type,
+thead .data-type {
+  color: #aaa;
+  font-size: 0.8rem;
+  font-weight: normal;
+  margin-left: 2px;
+}
+
+/* Adjust the table margin to match the fixed-top container */
+#tableList {
+  margin-top: 40px; /* Match the top of the table with the fixed-top container */
+}
+
+/* Added CSS from ddx conversion */
+body {
+  font-family: "Open Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
