@@ -1,0 +1,18 @@
+{
+   "id": "adc4b8e6-3c74-498e-a7df-97c0d048df1e",
+   "name": "data-table",
+   "version": "0.0.1",
+   "datasetsMapping": [
+      {
+         "dataSetId": "02b9751f-4e47-42fe-9222-a1194e36f9fa",
+         "alias": "",
+         "fields": [],
+         "dql": null
+      }
+   ],
+   "size": {
+      "width": 5,
+      "height": 6
+   },
+   "fullpage": true
+}
